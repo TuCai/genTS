@@ -36,6 +36,10 @@ start_app(msg_lvl = 3)    # start and display detailed message at level 3
 start_app(n=7)            # to start the 7th application
 ```
 
+## Create simplified TS domain
+
+Ths app is published to: https://geotiger.shinyapps.io/07_genTS/.
+
 ## Package history
 
 * V0.1.0
