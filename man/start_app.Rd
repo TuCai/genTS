@@ -2,15 +2,19 @@
 % Please edit documentation in R/start_app.R
 \name{start_app}
 \alias{start_app}
-\title{Start Phuse Web Application}
+\title{Start R Shiny app}
 \usage{
-start_app(app_name = "app.R", pt = NULL,
+start_app(app_name = NULL, n = 7, pkg = "genTS", pt = NULL,
   lb = getOption("shiny.launch.browser", interactive()),
   ht = getOption("shiny.host", "127.0.0.1"), dm = "normal",
   msg_lvl = NULL, loc = "local")
 }
 \arguments{
-\item{app_name}{app or script name; default to "app.R"}
+\item{app_name}{app or script name}
+
+\item{n}{app number}
+
+\item{pkg}{package name}
 
 \item{pt}{Port number}
 
@@ -25,8 +29,7 @@ start_app(app_name = "app.R", pt = NULL,
 \item{loc}{location of the scirpt: local|github; default to 'local'}
 }
 \description{
-start phuse web appllication framework. This includes all the
-  functions in start_phuse plus starting standalone application by name.
+start R Shiny apps included in this package.
 }
 \examples{
 \dontrun{

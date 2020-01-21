@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1573531937049.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "815780663",
+    "id" : "7F3F112B",
+    "lastKnownWriteTime" : 1579580808,
+    "last_content_update" : 1579580808741,
+    "path" : "C:/myCodes/pkgs/genTS/R/start_app.R",
+    "project_path" : "R/start_app.R",
+    "properties" : {
+        "cursorPosition" : "75,21",
+        "scrollLine" : "53"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
