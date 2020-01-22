@@ -1,7 +1,7 @@
 Package: genTS
 Type: Package
-Title: R Shiny app for creating simplified trial summary (TS) domain
-Version: 0.1.1
+Title: R Shiny App for Creating Simplified Trial Summary (TS) Domain
+Version: 0.1.2
 Author: Hanming Tu [aut, cre]
 Authors@R: c(
   person("Hanming", "Tu", email = "hanming.tu@gmail.com",role = c("aut", "cre"))

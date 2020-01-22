@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "555248043",
     "id" : "C35A3C43",
-    "lastKnownWriteTime" : 1579579282,
-    "last_content_update" : 1579579282,
+    "lastKnownWriteTime" : 1579622163,
+    "last_content_update" : 1579622163679,
     "path" : "C:/myCodes/pkgs/genTS/DESCRIPTION",
     "project_path" : "DESCRIPTION",
     "properties" : {
-        "cursorPosition" : "18,21",
-        "scrollLine" : "0"
+        "cursorPosition" : "3,14",
+        "scrollLine" : "1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
