@@ -46,6 +46,10 @@ Ths app is published to: https://geotiger.shinyapps.io/07_genTS/.
 
 Did not submit to CRAN
 
+* v0.1.1
+
+Did not submit to CRAN
+
 * V0.1.2
 
 01/21/2020: Submitted to CRAN 
