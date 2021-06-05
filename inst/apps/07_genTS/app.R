@@ -30,6 +30,7 @@
 #   08/23/2019 (htu) - merged Bob's code
 #   08/27/2019 (htu) - added JS codes to make studyid as required and TSVAL and TSVALNF mutually exclusive
 #   11/04/2019 (htu) - implemented FDA E-1 ~ E-8 and D-1
+#   06/05/2021 (htu) - startedf v0.1.3 and added js_hide_sidebar and js_show_sidebar
 #
 
 library(shiny)
