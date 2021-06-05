@@ -14,12 +14,8 @@
 #' @author Hanming Tu
 ##' @name app
 # ---------------------------------------------------------------------------
-# HISTORY   MM/DD/YYYY (developer) - explanation
-#  09/13/2017 (htu) - initial creation
-#
-
-
 # Purpose: simple app to create a simplified TS domain dataset
+# HISTORY   MM/DD/YYYY (developer) - explanation
 # Development History:
 #   MM/DD/2019 (developer) - description
 #   07/12/2019 (htu) - initial creation based on FDA guide:
@@ -57,7 +53,7 @@ sidebar <- dashboardSidebar(
     id = "tab1",
     menuItem("Simplified TS", icon = icon("cog"),
              menuSubItem("Simplified ts.xpt Creation Guide", href = 'https://www.fda.gov/industry/study-data-standards-resources/study-data-submission-cder-and-cber', newtab = FALSE)
-             , menuSubItem("About phuse Package", href = 'install_phuse_pkg.png', newtab = TRUE)
+             , menuSubItem("About phuse Package", href = 'https://github.com/TuCai/genTS/blob/master/inst/apps/07_genTS/www/install_phuse_pkg.png', newtab = TRUE)
              # , menuSubItem('Utility Requirements',href = 'XPT_Utility_Requirements.xlsx', newtab = TRUE)
              , menuSubItem('Source Code',href='https://github.com/TuCai/phuse/blob/master/inst/examples/07_genTS/app.R', newtab = TRUE)
              
