@@ -64,6 +64,13 @@ sidebar <- dashboardSidebar(
   )
 )
 
+js_hide_sidebar <- 'shinyjs.hideSidebar = function(params) {
+      $("body").addClass("sidebar-collapse");
+      $(window).trigger("resize"); }'
+js_show_sidebar <- 'shinyjs.showSidebar = function(params) {
+      $("body").removeClass("sidebar-collapse");
+      $(window).trigger("resize"); }'
+
 ui <- dashboardPage(
   # dashboardHeader(),
   # dashboardSidebar(),
@@ -71,12 +78,8 @@ ui <- dashboardPage(
   sidebar,
   dashboardBody(
     useShinyjs()
-    , extendShinyjs(text = 'shinyjs.hideSidebar = function(params) {
-      $("body").addClass("sidebar-collapse");
-      $(window).trigger("resize"); }')
-    , extendShinyjs(text='shinyjs.showSidebar = function(params) {
-      $("body").removeClass("sidebar-collapse");
-      $(window).trigger("resize"); }')
+    , extendShinyjs(text = js_hide_sidebar, functions = c("hideSidebar"))
+    , extendShinyjs(text=js_show_sidebar, functions = c("showSidebar"))
     , bsButton("showpanel", "Show/Hide sidebar",icon = icon("toggle-off"),
                type = "toggle",style = "info", value = TRUE)
     , tags$head(

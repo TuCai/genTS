@@ -4,10 +4,17 @@
 \alias{start_app}
 \title{Start R Shiny app}
 \usage{
-start_app(app_name = "07_genTS", n = 1, pkg = "genTS", pt = NULL,
+start_app(
+  app_name = "07_genTS",
+  n = 1,
+  pkg = "genTS",
+  pt = NULL,
   lb = getOption("shiny.launch.browser", interactive()),
-  ht = getOption("shiny.host", "127.0.0.1"), dm = "normal",
-  msg_lvl = NULL, loc = "local")
+  ht = getOption("shiny.host", "127.0.0.1"),
+  dm = "normal",
+  msg_lvl = NULL,
+  loc = "local"
+)
 }
 \arguments{
 \item{app_name}{app or script name}
