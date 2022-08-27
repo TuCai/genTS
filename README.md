@@ -54,3 +54,13 @@ Did not submit to CRAN
 
 01/21/2020: Submitted to CRAN 
 
+* V0.1.3
+
+02/08/2020: Submitted to CRAN 
+
+* V0.1.4
+
+Make changes for R 4.0
+
+09/20/2022: Submitted to CRAN 
+

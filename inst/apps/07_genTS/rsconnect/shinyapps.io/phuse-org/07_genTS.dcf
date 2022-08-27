@@ -5,9 +5,9 @@ account: phuse-org
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4231930
-bundleId: 4681111
+bundleId: 4681223
 url: https://phuse-org.shinyapps.io/07_genTS/
-when: 1622902174.78015
-lastSyncTime: 1622902174.78016
+when: 1622905230.60684
+lastSyncTime: 1622905230.60685
 asMultiple: FALSE
 asStatic: FALSE

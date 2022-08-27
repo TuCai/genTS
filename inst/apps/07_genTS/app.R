@@ -36,12 +36,12 @@ library(shinyBS)
 library(SASxport)
 library(Hmisc)
 library(rhandsontable)
-library(phuse)
+# library(phuse)
 library(DT)
 library(V8)
 library(stringr)
 
-is_empty <- phuse::is_empty;
+# is_empty <- phuse::is_empty;
 
 header <- dashboardHeader(
   title = "Creating TS Domain"
